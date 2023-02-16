@@ -1,0 +1,43 @@
+.address{
+    a{
+        color: #37517e;
+    }
+}
+.links{
+    h5{
+        color: #37517e;
+    }
+    ul{
+        li{
+            a{
+                transition: all 0.4s ease;
+                color: rgb(152, 148, 148);
+                &:hover{
+                    color: #47b2e4;
+                }
+                svg{
+                    color: #47b2e4;
+                }
+            }
+        }
+    }
+}
+.social{
+    .social-icon{
+        svg{
+            text-align: center;
+            background-color: #47b2e4;
+            padding: 10px 12px;
+            border-radius: 50%;
+            margin-right: 5px;
+            transition: all 0.4s ease;
+            color: $white;
+            &:hover{
+                background-color: #209dd8;
+            }
+        }
+    }
+}
+.bg-blue{
+    background-color: #37517e;
+}

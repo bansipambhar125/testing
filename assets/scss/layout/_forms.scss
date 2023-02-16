@@ -1,0 +1,44 @@
+.contact{
+        background-color: $white;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+        border-top: 3px solid #47b2e4;
+        border-bottom: 3px solid #47b2e4;
+    .location{
+        svg{
+            text-align: center;
+            background-color: #eff2f8;
+            padding: 10px 12px;
+            border-radius: 50%;
+            margin-right: 15px;
+            transition: all 0.4s ease;
+            color: #47b2e4;
+        }
+        &:hover svg{
+            color: white;
+            background-color: #47b2e4;   
+        }
+    }
+}
+.join{
+    h4{
+        color: #37517e;
+    }
+    .subscribe{
+        position: relative;
+        .form-control{
+            border-radius: 50px;
+            border: none;
+            box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+        }
+        .form-button{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-radius: 50px;
+            background-color: #47b2e4;
+            border: none;
+            padding: 9px 20px;
+        }
+    }
+    
+}

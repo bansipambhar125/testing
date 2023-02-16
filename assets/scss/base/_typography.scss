@@ -1,0 +1,108 @@
+.about-title{
+    h2{
+        color: #37517e;
+        &::before{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 120px;
+            bottom: 1px;
+            background: #ddd;
+            height: 1px;
+            left: calc(50% - 60px);
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: #47b2e4;
+            bottom: 0;
+            left: calc(50% - 20px);
+        }
+    }
+}
+.about-content{
+    ul{
+        line-height: 2.5;
+        li{
+            svg{
+                color: #47b2e4;
+            }
+        }
+    }
+}
+.services-content{
+    h2{
+        color: #37517e;
+        margin-bottom: 15px;
+    }
+    p{
+        color: #848484;
+        font-size: 15px;
+    }  
+}
+.accordion-item{
+    .accordion-header{
+        .accordion-button{
+            &:not(.collapsed){
+                color: #47b2e4;
+                background-color: transparent;
+            }
+            &:focus span{
+                color: #47b2e4;
+            }
+            h5{
+                color: #47b2e4;
+            }
+            span{
+                color: black;
+                transition: all 0.4s ease;
+                &:hover{
+                    color: #47b2e4;
+                }
+                &.active{
+                    color: #47b2e4;
+                }
+            }
+            
+        }
+    }
+}
+.progress-content{
+    h2{
+        color: #37517e;
+    }
+    p{
+        color: #848484;
+    }
+}
+.progress{
+    .progress-bar{
+        background-color: #37517e;
+    }
+}
+.service-box{
+    padding: 35px 30px;
+    background-color: $white;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+    transition: all 0.4s ease;
+    &:hover h4{
+        color: #47b2e4;
+    }
+    &:hover{
+        transform: translateY(-10px);
+    }
+    svg{
+        color: #47b2e4;
+    }
+    h4{
+        color: #37517e;
+        transition: all 0.4s ease;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+}
